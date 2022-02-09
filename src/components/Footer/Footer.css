@@ -1,0 +1,117 @@
+/* @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700"); */
+/* The footer is fixed to the bottom of the page */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+}
+
+.footer-distributed {
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 20%;
+}
+
+.footer-distributed .footer-left img {
+  width: 30%;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 40%;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 36%;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #c8c9ca;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 30px;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-distributed .footer-company-about .followUs {
+  color: rgb(9, 211, 42);
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  padding: 8px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+.last {
+  background-color: rgb(155, 6, 6);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
